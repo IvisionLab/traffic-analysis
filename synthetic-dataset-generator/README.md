@@ -7,18 +7,13 @@ This is the code for our tool to generate multi-purpose, synthetic data sets fro
 
 ## System requirements
 
-To run training, you need [CUDA 8](https://developer.nvidia.com/cuda-toolkit), [NVIDIA Docker](https://github.com/NVIDIA/nvidia-docker)
-and a linux machine with at least one Nvidia GPU installed. Our training was conducted using 4 Titan-X GPUs.
+To run the generator, you need [Blender](https://github.com/dfelinto/blender), [Python >=3.0].
 
-Training time per epoch for us was roughly 
-10k: 40 minutes,
-50k: 3.3 hours,
-200k: 12.5 hours. We plan on providing the trained parameters from the best performing epoch for 200k soon.
 
 
 ## Build your own
 
-![Steps?](figures/pipeline.eps)
+![Steps](https://github.com/IvisionLab/traffic-analysis/blob/master/synthetic-dataset-generator/figures/steps.png)
 
 To generate any data set, three steps are required: locate 3D models in the scene, set the discretization parameters, and run the generator. Follow the next instructions.
 
@@ -27,11 +22,11 @@ To generate any data set, three steps are required: locate 3D models in the scen
 ## Paper and Citation
 If you find this useful in your research please cite:
 
-> Cite in APA format.
+> Cite in APA format: XXXXXX
     
-    @paper{xx,
-        Author = {Ruiz Marco and Fontinele Jefferson and Perrone Ricardo and Santos Marcelo and Oliveira Luciano},
-        title     = {Microsoft {COCO:} Common Objects in Context},
+@paper{	xx,
+	Author = {Ruiz Marco and Fontinele Jefferson and Perrone Ricardo and Santos Marcelo and Oliveira Luciano},
+	title     = {Microsoft {COCO:} Common Objects in Context},
 	journal   = {xx},
 	volume    = {xx},
 	year      = {2018},
