@@ -9,6 +9,10 @@ This is the code for our tool to generate multi-purpose, synthetic data sets fro
 
 To run the generator, you need [Blender](https://github.com/dfelinto/blender), [Python >=3.0].
 
+pip3 install numpy scikit-image scikit-learn scipy
+
+pip3 install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
+
 
 
 ## Build your own
@@ -24,7 +28,7 @@ If you find this useful in your research please cite:
 
 > Cite in APA format: XXXXXX
     
-@paper{	xx,
+> @paper{	xx,
 	Author = {Ruiz Marco and Fontinele Jefferson and Perrone Ricardo and Santos Marcelo and Oliveira Luciano},
 	title     = {Microsoft {COCO:} Common Objects in Context},
 	journal   = {xx},
