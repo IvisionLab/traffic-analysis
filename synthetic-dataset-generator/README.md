@@ -19,12 +19,12 @@ To run the generator, you need [Blender](https://github.com/dfelinto/blender), [
 ## Build your own dataset
 
 <p align="center">
-	![Steps](https://github.com/IvisionLab/traffic-analysis/blob/master/synthetic-dataset-generator/figures/steps.png)
+	<img src="https://github.com/IvisionLab/traffic-analysis/blob/master/synthetic-dataset-generator/figures/steps.png" width="60%" align="center" height="60%">
 </p>
 
 To generate any data set, three steps are required: locate 3D models in the scene (blender file), set the discretization parameters, and run the generator (render_dataset.py).
 
-Link to the .Blender files Car poses and Object poses: https://drive.google.com/drive/folders/1vCy-kKYWWpEdFUymwD71pNCX4MPmXcyV?usp=sharing
+Link to the .Blender files Car poses and Object poses: https://bit.ly/2keMtJh
 
 An example of a generated dataset is the Car poses dataset with +270k images from +2k categorized poses and perfect automatic annotations.
 <p align="center">
