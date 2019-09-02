@@ -2,7 +2,7 @@
 
 This is the code for our tool to generate multi-purpose, synthetic data sets from multiple camera viewpoints and environmental conditions. The set of rendered images provide data that can be used for geometric computer vision problems, such as: Depth estimation, camera pose estimation, 3D box estimation, 3D reconstruction, camera calibration, and also pixel-perfect ground truth for scene understanding problems, such as: Semantic segmentation, instance segmentation, object detection, just to cite a few. It contains a wide set of features easy to extend, besides allowing for building sets of images in the well-known MSCOCO format, so ready for deep learning works.
 
-<center><img src="https://github.com/IvisionLab/traffic-analysis/blob/master/synthetic-dataset-generator/figures/outputs.png" width="60%" height="60%">
+<div style="text-align:center"><img src="https://github.com/IvisionLab/traffic-analysis/blob/master/synthetic-dataset-generator/figures/outputs.png" width="60%" height="60%"></div>
 
 ## System requirements
 
