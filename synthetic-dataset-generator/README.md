@@ -11,9 +11,8 @@ suited for fine-tuning CNNs, or pre-training or training from scratch.
 
 To run the generator, you need [Blender](https://github.com/dfelinto/blender), [Python >=3.0], and some libraries:
 
-pip3 install numpy scikit-image scikit-learn scipy
-
-pip3 install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
+    pip3 install numpy scikit-image scikit-learn scipy
+    pip3 install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
 
 * This code was tested on an Ubuntu 18.04 system using Blender 2.8. All the scripts should be executed from the Blender script window.
 
