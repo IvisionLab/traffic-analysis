@@ -2,7 +2,8 @@
 
 This is the code for our tool to generate multi-purpose, synthetic data sets from multiple camera viewpoints and environmental conditions. The set of rendered images provide data that can be used for geometric computer vision problems, such as: Depth estimation, camera pose estimation, 3D box estimation, 3D reconstruction, camera calibration, and also pixel-perfect ground truth for scene understanding problems, such as: Semantic segmentation, instance segmentation, object detection, just to cite a few. It contains a wide set of features easy to extend, besides allowing for building sets of images in the well-known MSCOCO format, so ready for deep learning works.
 
-<p align="center"><img src="https://github.com/IvisionLab/traffic-analysis/blob/master/synthetic-dataset-generator/figures/outputs.png" width="60%" align="center" height="60%">
+<p align="center">
+	<img src="https://github.com/IvisionLab/traffic-analysis/blob/master/synthetic-dataset-generator/figures/outputs.png" width="60%" align="center" height="60%">
 </p>
 
 ## System requirements
@@ -17,17 +18,19 @@ pip3 install git+https://github.com/philferriere/cocoapi.git#subdirectory=Python
 
 ## Build your own dataset
 
-![Steps](https://github.com/IvisionLab/traffic-analysis/blob/master/synthetic-dataset-generator/figures/steps.png)
+<p align="center">
+	![Steps](https://github.com/IvisionLab/traffic-analysis/blob/master/synthetic-dataset-generator/figures/steps.png)
+</p>
 
 To generate any data set, three steps are required: locate 3D models in the scene (blender file), set the discretization parameters, and run the generator (render_dataset.py).
 
 Link to the .Blender files Car poses and Object poses: https://drive.google.com/drive/folders/1vCy-kKYWWpEdFUymwD71pNCX4MPmXcyV?usp=sharing
 
 An example of a generated dataset is the Car poses dataset with +270k images from +2k categorized poses and perfect automatic annotations.
-
-![Car poses](https://github.com/IvisionLab/traffic-analysis/blob/master/synthetic-dataset-generator/figures/examples2.png){:height="40%" width="40%"}
-
-![Others](https://github.com/IvisionLab/traffic-analysis/blob/master/synthetic-dataset-generator/figures/examples3.png){:height="40%" width="40%"}
+<p align="center">
+	<img src="https://github.com/IvisionLab/traffic-analysis/blob/master/synthetic-dataset-generator/figures/examples2.png" width="40%" align="center" height="40%">
+	<img src="https://github.com/IvisionLab/traffic-analysis/blob/master/synthetic-dataset-generator/figures/examples3.png" width="40%" align="center" height="40%">
+</p>
 
 ## Request Dataset
 Please send an e-mail to lrebouca@ufba.br to receive a link to any of our datasets generated explained in the paper (Car, Bike, Chair, Boat or Hairdryer poses). Your e-mail must be sent from a valid institutional account, and include the following text (copy and paste the text below, filling the required fields):
