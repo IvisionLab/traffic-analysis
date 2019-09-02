@@ -50,7 +50,7 @@ Dataset: [e.g., Car poses]
 P.S. A link to the dataset file will be sent as soon as possible.
 
 ## Paper and Citation
-<a href="http://example.com/" target="_blank">Hello, world!</a>
+<a href="https://example.org/" rel="nofollow" title="title&quot; target=&quot;_blank">Link</a>
 
 If you find this useful in your research please cite the [paper](http://ivisionlab.ufba.br/doc/publication/2019/VIPIMAGE_tool_for_building_datasets.pdf/ "title" target="_blank"). If you find this code useful in your research, please consider citing:
 
