@@ -12,6 +12,7 @@ pip3 install numpy scikit-image scikit-learn scipy
 
 pip3 install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
 
+* This code was tested on an Ubuntu 18.04 system using Blender 2.8. All the scripts should be executed from the Blender script window.
 
 ## Build your own dataset
 
@@ -37,19 +38,14 @@ Dataset: [e.g., Car poses]
 
 P.S. A link to the dataset file will be sent as soon as possible.
 
-
 ## Paper and Citation
-If you find this useful in your research please cite the [paper](http://ivisionlab.ufba.br/doc/publication/2019/VIPIMAGE_tool_for_building_datasets.pdf):
-    
-> @paper{	xx,
-	Author = {Ruiz Marco and Fontinele Jefferson and Perrone Ricardo and Santos Marcelo and Oliveira Luciano},
-	title     = {A Tool for Building Multi-purpose and Multi-pose Synthetic Data Sets},
-	journal   = {ECCOMAS THEMATIC CONFERENCE ON COMPUTATIONAL VISION AND MEDICAL IMAGE PROCESSING, Lecture Notes in Computational Vision and Biomechanics},
-	volume    = {xx},
-	year      = {2019},
-	eprint    = {xx},
-	pages={xx--xx}
-}
+If you find this useful in your research please cite the [paper](http://ivisionlab.ufba.br/doc/publication/2019/VIPIMAGE_tool_for_building_datasets.pdf).  If you find this code useful in your research, please consider citing:
 
+    @inproceedings{plummerCITE201z,
+	Author = {Ruiz Marco and Fontinele Jefferson and Perrone Ricardo and Santos Marcelo and Oliveira Luciano},
+	Title = {A Tool for Building Multi-purpose and Multi-pose Synthetic Data Sets},
+	Booktitle  = {ECCOMAS THEMATIC CONFERENCE ON COMPUTATIONAL VISION AND MEDICAL IMAGE PROCESSING, Lecture Notes in Computational Vision and Biomechanics},
+	Year = {2019}
+    }
 
 
