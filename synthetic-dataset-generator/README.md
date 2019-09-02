@@ -50,7 +50,7 @@ Dataset: [e.g., Car poses]
 P.S. A link to the dataset file will be sent as soon as possible.
 
 ## Paper and Citation
-If you find this useful in your research please cite the [paper](http://ivisionlab.ufba.br/doc/publication/2019/VIPIMAGE_tool_for_building_datasets.pdf).  If you find this code useful in your research, please consider citing:
+If you find this useful in your research please cite the [paper](http://ivisionlab.ufba.br/doc/publication/2019/VIPIMAGE_tool_for_building_datasets.pdf){:target="_blank"}. If you find this code useful in your research, please consider citing:
 
     @inproceedings{plummerCITE201z,
 	Author = {Ruiz Marco and Fontinele Jefferson and Perrone Ricardo and Santos Marcelo and Oliveira Luciano},
