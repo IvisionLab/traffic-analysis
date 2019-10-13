@@ -14,7 +14,7 @@ To run the generator, you need [Blender](https://github.com/dfelinto/blender), [
     pip3 install numpy scikit-image scikit-learn scipy
     pip3 install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
 
-* This code was tested on an Ubuntu 18.04 system using Blender 2.8. All the scripts should be executed from the Blender script window.
+* This code was tested on an Ubuntu 18.04 system using Python 3.5 and Blender 2.79 with CPU and GPU. All the scripts should be executed from the Blender script window.
 
 ## Build your own dataset
 
